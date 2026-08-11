@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#nav-ribbon {
+  width: 100%;
+  background-color: transparent;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  /* Flex  */
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Gt Pressura Mono', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+#nav-ribbon-left,
+#nav-ribbon-right {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: all;
+  transition-duration: 1ms;
+}
+
+.top-section {
+  width: 100vw;
+  height: 100vh;
+  /* position: relative; */
+}
+
+#animated-char-box {
+  width: 70%;
+  height: 70%;
+  position: relative;
+  top: 20%;
+  left : 15%;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#animated-char-box p{
+  font-size: 180px;
+  font-weight: 800;
+  font-family: 'Bebas Neue', sans-serif;
+  line-height: 1;
+  opacity: 1;
+}
+
+#animated-box{
+  position: absolute;
+  left : 0;
+  top : 0;
+  height : 50%;
+  width : 30%;
+}
+#animated-box video{
+  height:300px;
+  width: 400px;
+  border-radius: 15px;
+  border-radius:17px;
+}
+#element video{
+  height:300px;
+  width:100vw;
+  top:3px;
+  left:0;
+  right:0;
+}
+footer{
+  color:black;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Gt Pressura Mono', Georgia, 'Times New Roman', Times, serif;;
+  color: gray;
+  position:fixed;
+  z-index: 999;
+  bottom:10px;
+
+}
+
+footer p
+{
+  margin: 2rem;
+  color: black;
+}
+#menu{
+  /* background-color: blue; */
+  transition:text;
+  transition: delay 0.5em;;
+}
