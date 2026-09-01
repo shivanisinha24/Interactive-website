@@ -405,23 +405,6 @@ input {
   z-index: 100000;
   width:88%;
 }
-.grid-heading{
-  position: absolute;
-  font-size: 2rem;
-  top: -0px;
-  left: -200px;
-  background-color: blue;
-  color: white;
-  border-radius: 6px;
-  letter-spacing: 2px;
 
-  padding: 5px;
-  transform: rotate(-5deg);
-  line-height: 2rem;
-
-  /* TO add smooth effect */
-  /* transition: all 0.2s ease-in; */
-  transition: all linear 0.3s;
-}
 /* Images and Vedio Links */
 /* https://drive.google.com/drive/folders/1_4j6Tie-B4NgyCgiFbzp2xzaMxwBzdT5?usp=sharing */
